@@ -37,7 +37,7 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #5a5ada;
   }
   
   .dropdown-content {
@@ -72,18 +72,118 @@ body {
     text-align: center;
     color: white;
     font-size: 30px;
-    background-image: linear-gradient(to bottom right, Navy, Black);
+    background-image: linear-gradient(to bottom right, #5a5ada, #5a5ada);
 }
 
 /*Info blocks:*/
 
 .InfoSectionRight {
-    padding: 20px;
-    background-color: #333;
+    background-color: #dad7ef;
     display: block;
-    color: white;
+    float: left;
+    width: 48vw;
+    margin: 0px;
+    border: 0.4vw solid white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.InfoSectionTop {
+    background-color: #dad7ef;
+    display: block;
+    float: left;
+    width: 97.7vw;
+    margin: 0px;
+    border: 0.4vw solid white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.InfoSectionTop td {
+    padding: 16px;
 }
 
 .InfoSectionRight td {
     padding: 16px;
 }
+
+/* On mouse-over, add a deeper shadow */
+.InfoSectionRight:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.resume-header {
+	height: 7vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, #5a5ada, #5a5ada);
+}
+
+.resume-navbar {
+	height: 5vh;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .resume-body {
+	margin-top: 10px;
+    overflow: hidden;
+    height: 85vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to bottom right, #2f2fa4, white);
+  }
+  
+  .resume-pdf {
+	width: 60vw;
+    height: 84vh;
+  }
+  
+  .prog-grid {
+	height: 86vh;
+    width: 99.9vw;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .prog-cell {
+	width: 49.9vw;
+    height: 42.5vh;
+    background: #dad7ef;
+    float: left;
+	border: 0.5px white solid;
+  }
+  
+  .prog-exp-heading {
+	font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    background: #a0a5ed;
+    color: white;
+  }
+  
+  .prog-task {
+	font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .prog-heading {
+	font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .prog-desc-section {
+	font-size: 14px;
+    padding: 5px;
+  }
+  
