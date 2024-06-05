@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
+<html><head>
         <script src="index.js"></script>
         <link rel="stylesheet" href="index.css">
         <title>Akshay Kuchibhatla</title>
     </head>
-    <body>
-        <div class="navbar resume-navbar">
+    <body style="width: 100%;
+">
+        <div class="navbar resume-navbar" style="width: 100vw;
+">
             <a href="index.html">Home</a>
             <a href="resume.html">Resume</a>
-           <!-- <a href="blog.html">Blog</a> -->
+            <!-- <a href="blog.html">Blog</a> -->
             <div class="dropdown">
               <button class="dropbtn">Fields Of Interest ▼
               </button>
@@ -21,47 +22,57 @@
             </div> 
           </div>
           
-        <div class="header">
-            <h1>Akshay Kuchibhatla</h1>
-            <h3>Software Engineer</h3>
+        <div class="resume-header" style="width: 99.3vw;">
+            <h1>Programming Experience</h1>
         </div>
-		<div style="display: flex;">
-		<div class="InfoSectionTop">  
-            <table>
-                <tr>
-                    <td><img src="routing.jpg" alt="Image of me routing" style="width: 300px; height:450px;"></td>
-                    <td>
-                        <h1>Faith</h1>
-                        <p>My greatest strength is my faith. I abide strongly in my faith and it has gotten me through the hardest times in my life.</p>
-                    </td>
-                </tr>
-            </table>
+		
+		<div class="prog-grid"> 
+		<div class="prog-cell"> 
+		<div class="prog-exp-heading">VLC - Visual Light Communication</div>
+		<div style="padding:20px;">
+		<div class="prog-task"> Project was developed for STEM Exhibition. 
+			  Task was to develop an innovative communication device and demonstrate 
+			  by sending signals accross a distance of few feet.</div>
+		<div class="prog-desc-section"> <span class="prog-heading">Description</span>: A laser light beam was sent to a receiver which senses the light.
+			  The light is sent from two emitters as ON & OFF. if ON there will be light if OFF there will be no light sent.
+			  The sensor senses the pulse and decodes it into binary 1s and 0s. The binary is converted to Asci vlaues of alphabets 
+			  and translated to text.</div>
+		<div class="prog-desc-section"> <span class="prog-heading">Hardware</span>: 2 Arduino Unos, Laser Light emitters, laser light sensors and LCD display to display the message text. </div>
+		<div class="prog-desc-section"> <span class="prog-heading">Programming Language & Tools</span>: C, Arduino IDE. </div>
 		</div>
 		</div>
-<div style="display: flex;justify-content: space-evenly;">
-        <div class="InfoSectionRight">
-            <table>
-                <tr>
-                    <td><img src="routing.jpg" alt="Image of me routing" style="width: 300px; height:450px;"></td>
-                    <td>
-                        <h1>Computer Science </h1>
-                        <p>I did an embedded systems project (using C & C++) in Middle School, and started writing programs in Python.
-						All of my High Scool I have been doing Computer Science and wish to finish all credits for an Associate Degree </p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-		<div class="InfoSectionRight">
-            <table>
-                <tr>
-                    <td><img src="routing.jpg" alt="Image of me routing" style="width: 300px; height:450px;"></td>
-                    <td>
-                        <h1>Carpentry</h1>
-                        <p>I have been doing Carpentry at my school for 2 years. It is my passion. It is also a useful skill I will use a lot in my life.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-</div>
-    </body>
-</html>
+		
+		<div class="prog-cell"> 
+		<div class="prog-exp-heading">Auto Plant Watering System</div>
+		<div style="padding:20px;">
+		<div class="prog-task"> Project was developed for watering plants in a Home Garden
+					Task is to develop a system to invoke a water pump from a web page.</div>
+		<div class="prog-desc-section"> <span class="prog-heading">Description</span>: A web page with buttons on it to invoke water pumps upon button click.
+					The button click sends a HTTP Request to a ESP8266 based system. the ESP8266 will send signals
+					to a relay switch to switch on and off a water pump.</div>
+		<div class="prog-desc-section"> <span class="prog-heading">Hardware</span>: ESP8266 (Arduino Compatible), RaspberryPi to host the web page, Relay Switch. </div>
+		<div class="prog-desc-section"> <span class="prog-heading">Programming Language & Tools</span>: C, Arduino IDE, HTML, JavaScript, VSCode. </div>
+		</div>
+		</div>
+		<div class="prog-cell"> 
+				<div class="prog-exp-heading">VOCABULARY WEBSITE</div>
+		<div style="padding:20px;">
+		<div class="prog-task"> Project was developed as full website with a built-in vocabulary quiz-style video game</div>
+		<div class="prog-desc-section"> <span class="prog-heading">Description</span>: Developed a full website with a built-in vocabulary quiz-style video game in HTML, CSS, and JavaScript.</div>
+		
+		<div class="prog-desc-section"> <span class="prog-heading">Programming Language & Tools</span>: HTML, CSS, and JavaScript VSCode. </div>
+		</div>
+		</div>
+		
+		<div class="prog-cell"> 
+				<div class="prog-exp-heading">SNOWMAN GAME</div>
+		<div style="padding:20px;">
+		<div class="prog-task"> Created a family-friendly version of the game “Hangman” </div>
+		<div class="prog-desc-section"> <span class="prog-heading">Description</span>: Created a family-friendly version of the game “Hangman” involving a snowman in C++ using object-oriented programming.</div>
+		
+		<div class="prog-desc-section"> <span class="prog-heading">Programming Language & Tools</span>: C++ VSCode. </div>
+		</div>
+		</div>
+		</div>
+    
+</body></html>
