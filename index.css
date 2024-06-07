@@ -12,11 +12,11 @@ body {
   }
   
   .navbar a {
-    float: left;
-    font-size: 16px;
+	float: left;
+    font-size: 2.5vh;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vh 1.5vh;
     text-decoration: none;
   }
   
@@ -26,11 +26,11 @@ body {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+	font-size: 2.5vh;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 1vh 1.5vh;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -187,3 +187,7 @@ body {
     padding: 5px;
   }
   
+  .prog-cell-img {
+	display: flex;
+    justify-content: center;
+  }
